@@ -6,7 +6,7 @@
 
 __Fake news__, or disinformation, is a growing problem in today's society. It can spread quickly through __social media__ and other online platforms, leading to confusion, mistrust, and even harm. In an effort to combat this issue, the use of __machine learning techniques__ for fake news detection has gained popularity. However, detecting fake news is a complex task that involves understanding the context, content, and intent of the information being shared.
 
-<img src = "https://github.com/suhasmaddali/Images/blob/main/Newspaper%20fake%20news%20repository%20image.jpg" width = 1000 height = "600"/>
+<img src = "https://github.com/sankethkaruturi/Images/blob/d4e3b842bc2137d905c7b097d1514579b809eeda/Project%20Thumbnails/fake_news.jpg" width = 1000 height = "600"/>
 
 ## Challenges
 
@@ -24,31 +24,31 @@ __Exploratory Data Analysis (EDA)__ is a critical process that allows us to delv
 
 We have successfully loaded a dataframe containing verified news stories. A preview of the first five entries in this data offers a glimpse into the type of information it houses. One notable feature is the 'subject' category, which provides insight into the topics of the news stories. Additionally, the dataframe includes a 'date' field, indicating when each news piece was originally published.
 
-<img src = "https://github.com/suhasmaddali/Fake-News-Prediction/blob/main/Images/True%20news%20df.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Fake-News-Detection/blob/9f008951270f0a7b146b60fc591b5a2e31497754/images/True%20news%20df.jpg"/>
 
 In a similar vein, we're keen on examining the dataset comprised of fake news. It appears to have similar columns to the true news dataset. For the purpose of conducting a comprehensive machine learning analysis, we plan to merge these two datasets together.
 
-<img src = "https://github.com/suhasmaddali/Fake-News-Prediction/blob/main/Images/Fake%20news%20df.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Fake-News-Detection/blob/9f008951270f0a7b146b60fc591b5a2e31497754/images/Fake%20news%20df.jpg"/>
 
 A significant portion of our data is primarily made up of political news, with world news forming a smaller share. This distribution gives us a comprehensive understanding of the nature of our dataset, setting a solid foundation for our forthcoming machine learning analysis.
 
-<img src = "https://github.com/suhasmaddali/Fake-News-Prediction/blob/main/Images/newstype%20countplot.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Fake-News-Detection/blob/9f008951270f0a7b146b60fc591b5a2e31497754/images/newstype%20countplot.jpg"/>
 
 Our dataset predominantly features news categories like politics and left-news. In contrast, categories such as 'US_News', 'Government News', and 'Middle-east' are underrepresented, appearing less frequently compared to the other topics.
 
-<img src = "https://github.com/suhasmaddali/Fake-News-Prediction/blob/main/Images/Subject%20countplot.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Fake-News-Detection/blob/9f008951270f0a7b146b60fc591b5a2e31497754/images/Subject%20countplot.jpg"/>
 
 The majority of the entries in our dataset pertain to fake news, as compared to non-fake news. However, despite this disparity, the dataset appears to be fairly balanced. Consequently, there isn't a need to employ oversampling techniques to augment the number of samples from the underrepresented class.
 
-<img src = "https://github.com/suhasmaddali/Fake-News-Prediction/blob/main/Images/True%20vs%20fake%20news%20countplot.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Fake-News-Detection/blob/9f008951270f0a7b146b60fc591b5a2e31497754/images/True%20vs%20fake%20news%20countplot.jpg"/>
 
 __True news wordcloud:__ Wordclouds offer a visual depiction of word frequencies within different text prompts. The larger the size of a word in the wordcloud, the greater its likelihood of occurrence. Our analysis reveals that a significant proportion of words in our dataset are centered around Trump, Hillary, and Obama. This observation aligns with our previous findings, indicating that a majority of our samples originate from political news sources.
 
-<img src = "https://github.com/suhasmaddali/Fake-News-Prediction/blob/main/Images/Fake%20news%20wordcloud.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Fake-News-Detection/blob/9f008951270f0a7b146b60fc591b5a2e31497754/images/Fake%20news%20wordcloud.jpg"/>
 
 __Fake news wordcloud:__ The diagram presented below illustrates the frequency of words commonly associated with fake news. Notably, words like "say," "plan," and "Russian" are prevalent, often contributing to the falseness of such news articles. By examining this diagram, we can gain valuable insights into distinguishing between fake and genuine news based on the presence or absence of specific word patterns.
 
-<img src = "https://github.com/suhasmaddali/Fake-News-Prediction/blob/main/Images/True%20news%20title.jpg"/>
+<img src = "https://github.com/sankethkaruturi/Fake-News-Detection/blob/9f008951270f0a7b146b60fc591b5a2e31497754/images/True%20news%20title.jpg"/>
 
 ## Constraints
 
